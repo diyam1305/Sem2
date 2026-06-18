@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background Example1(single image)</title>
+	<style>
+		body
+		{
+			background-image: url("https://www.w3schools.com/cssref/img_tree.gif");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: top center;
+			background-color: lightblue;
+		}
+
+		/*We can write the above code in single line also.
+		body
+		{
+			background: lightblue url("https://www.w3schools.com/cssref/img_tree.gif") no-repeat fixed center;
+		}*/
+	</style>
+</head>
+<body>
+	<h1>Background Example(single image)</h1>
+	<h3>We can write the above code in single line also.</h3>
+</body>
+</html>
