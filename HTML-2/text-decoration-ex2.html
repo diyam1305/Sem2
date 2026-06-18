@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text-Decoration-Example2</title>
+	<style>
+		h1
+		{
+			text-decoration-line: overline;
+			text-decoration-color: red;
+			text-decoration-style: solid;
+			text-decoration-thickness: auto;
+		}
+		h4
+		{
+			/*text-shadow: 10px 10px 2px red;*/
+			/*text-shadow: 0px 0px 3px #00FF00;*/
+			text-shadow: 10px 10px 3px #0000FF;
+		}
+		h2
+		{
+			text-decoration-line: line-through;
+			text-decoration-color: blue;
+		}
+		h3
+		{
+			text-decoration-line: underline;
+			text-decoration-color: green;
+			text-decoration-style: wavy;
+		}
+		.ex
+		{
+			text-decoration-line: overline underline;
+			text-decoration-color: purple;
+			text-decoration-style: double;
+			text-decoration-thickness: 5px;		
+		}
+		.ex2
+		{
+			text-decoration: underline red double 5px;
+		}
+		.ex3
+		{
+			line-height: 1.7;
+		}
+		.ex4
+		{
+			white-space: nowrap;
+		}
+	</style>
+</head>
+<body>
+	<h1>Overline Text Decoration</h1>
+
+	<h2>Line-Through Text Decoration</h2>
+
+	<h3>Underline Text Decoration</h3>
+
+	<p class="ex">Overline and Underline Text Decoration</p>
+
+	<p class="ex2">We can apply decoration in this way also</p><br>
+
+	<p class="ex3">See the line height.</p>
+	<p class="ex3">See the line height.</p>
+
+	<h4>Text-Shadow Effect!</h4>
+
+	<p class="ex4">This is some text that will not wrap.
+				   This is some text that will not wrap.
+				   This is some text that will not wrap.
+				   This is some text that will not wrap.
+				   This is some text that will not wrap.</p>
+</body>
+</html>
